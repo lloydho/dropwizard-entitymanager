@@ -100,7 +100,7 @@ class PersistenceUnitInfoImpl extends PersistenceUnitConfig implements Persisten
 
     @Override
     public ClassLoader getNewTempClassLoader() {
-        throw new UnsupportedOperationException("getNewTempClassLoader is not supported");
+        return null;
     }
 
     /*
